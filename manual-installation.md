@@ -138,4 +138,9 @@ sudo systemctl --type=service --state=active | grep graylog
 ```
 
 A partir daqui o graylog já deverá estar funcionando corretamente.  
-Para acessar a Interface Web, abra em seu navegador a url `http://localhost:9000`
+
+
+### Acessando a interface web
+- `url:` http://localhost:9000
+- `Usuário padrão:` admin
+- `Senha`: a mesma senha informada para gerar o hash do root_password_sha2.
