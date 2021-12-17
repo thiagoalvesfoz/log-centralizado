@@ -166,7 +166,7 @@ cpus: 2
 
 ##### Edite as propriedas
 
-`GRAYLOG_ORIGIN` : É o endereço IP ou dominio de origem da máquina que está enviando os logs.
+`GRAYLOG_ORIGIN` : É o endereço IP ou dominio de origem da máquina que está enviando os logs.  
 `GRAYLOG_HOST` : É o endereço IP ou dominio do graylog server.  
 `GRAYLOG_PORT` : É a porta de entrada por onde o graylog server foi configurado para receber os logs.
 
