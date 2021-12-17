@@ -170,7 +170,7 @@ cpus: 2
 `GRAYLOG_HOST` : É o endereço IP ou dominio do graylog server.  
 `GRAYLOG_PORT` : É a porta de entrada por onde o graylog server foi configurado para receber os logs.
 
-### Configuração em Graylog
+## Configuração o Graylog
 
 Navegue até a página inputs pelo menu superior em `System/Inputs > Inputs`
 
