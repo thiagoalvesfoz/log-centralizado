@@ -2,7 +2,7 @@
 
 ##### DOC OFICIAL: https://docs.graylog.org/docs/ubuntu
 
-### pre requisitos
+### Pré requisitos
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade
@@ -27,7 +27,7 @@ sudo systemctl restart mongod.service
 sudo systemctl --type=service --state=active | grep mongod
 ```
 
-#### Instalando o Elasticsearch 7.x
+### Instalando o Elasticsearch 7.x
 
 ```bash
 wget -q https://artifacts.elastic.co/GPG-KEY-elasticsearch -O myKey
@@ -36,7 +36,7 @@ echo "deb https://artifacts.elastic.co/packages/oss-7.x/apt stable main" | sudo 
 sudo apt-get update && sudo apt-get install elasticsearch-oss
 ```
 
-#### Adicione esta configuração no Elasticsearch
+### Adicione esta configuração no Elasticsearch
 
 ```bash
 sudo tee -a /etc/elasticsearch/elasticsearch.yml > /dev/null <<EOT
@@ -60,7 +60,7 @@ sudo systemctl --type=service --state=active | grep elasticsearch
 curl -XGET 'http://localhost:9200'
 ```
 
-Se o comando acima retornar estas informações, estão está tudo certo!
+Se o comando acima retornar estas informações, então está tudo certo!
 
 ```json
 {
@@ -136,3 +136,5 @@ sudo systemctl enable graylog-server.service
 sudo systemctl start graylog-server.service
 sudo systemctl --type=service --state=active | grep graylog
 ```
+
+A partir daqui o graylog já deverá estar funcionando corretamente.
