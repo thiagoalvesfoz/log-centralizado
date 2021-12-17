@@ -137,4 +137,5 @@ sudo systemctl start graylog-server.service
 sudo systemctl --type=service --state=active | grep graylog
 ```
 
-A partir daqui o graylog já deverá estar funcionando corretamente.
+A partir daqui o graylog já deverá estar funcionando corretamente.  
+Para acessar a Interface Web, abra em seu navegador a url `http://localhost:9000`
